@@ -6,31 +6,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="#acebf6"
     android:orientation="vertical">
 
     <TextView
+        android:background="@drawable/head"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="   Какое дерьмо тебя ждет сегодня?"
+        android:layout_height="200dp"
         android:textSize="40dp"
         android:id="@+id/textview"
         />
+    <TextView
+        android:id="@+id/emptiness"
+        android:layout_below="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+    </TextView>
     <Button
+        android:background="@drawable/button2"
         android:id="@+id/button"
         android:textSize="30dp"
-        android:text="ДА! \nУЗНАЙ ПРЯМО СЕЙЧАС!!!"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textview"
+        android:layout_below="@+id/emptiness"
         />
     <TextView
-        android:textSize="30dp"
+        android:textColor="#ffc90e"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:background="@drawable/maybe"
+        android:textSize="50dp"
         android:id="@+id/vivod"
         android:layout_below="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-
-
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="соси жопу"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 </RelativeLayout>
