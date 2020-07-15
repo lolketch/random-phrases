@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init_arrays() {
-        String[] first = {"Получить", "Схлопотать", "Упасть"};
-        String[] second = {"долг", "по ебалу", "обосраться"};
-        String[] third = {"от Константиновой", "от Дыды", "перед толчком"};
+        String[] first = {"Получишь", "Схлопочешь", "Найдешь"};
+        String[] second = {"леденец", "стол", "стул"};
+        String[] third = {"сегодня", "от брата", "никогда"};
         first_word.addAll(Arrays.asList(first));
         second_word.addAll(Arrays.asList(second));
         third_word.addAll(Arrays.asList(third));
